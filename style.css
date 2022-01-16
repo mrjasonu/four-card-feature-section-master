@@ -6,7 +6,6 @@ html {
 main {
     display: block;
     margin: 50px auto;
-    /* border: 1px solid black; */
     height: 900px;
     width: 1400px;
 }
@@ -39,11 +38,9 @@ header p {
 .grid {
     margin-top: 40px;
     display: grid;
-    /* border: 1px solid black; */
     height: 690px;
-    /* width: 100%; */
     width: 98.5%;
-    grid-template-rows: 69px 69px 69px 69px 69px 69px 69px 69px 69px 69px;
+    grid-template-rows: 69px 69px 69px 69px 69px 69px 69px;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 10px;
     column-gap: 10px;
@@ -54,11 +51,8 @@ header p {
     box-shadow: -11px 16px 24px 1px rgba(0,0,0,0.32);
     -webkit-box-shadow: -11px 16px 24px 1px rgba(0,0,0,0.32);
     -moz-box-shadow: -11px 16px 24px 1px rgba(0,0,0,0.32);
-    /* width: 350px; */
-    /* height: 250px; */
     width: 370px;
     height: 260px;
-    /* border: 1px solid black; */
     border-radius: 5px;
     padding: 20px;
 }
