@@ -36,6 +36,8 @@ header p {
 
 /* Grid Section */
 .grid {
+    position: relative;
+    left: 55px;
     margin-top: 40px;
     display: grid;
     height: 690px;
@@ -43,7 +45,6 @@ header p {
     grid-template-rows: 69px 69px 69px 69px 69px 69px 69px;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 10px;
-    column-gap: 10px;
 }
 
 .square {
